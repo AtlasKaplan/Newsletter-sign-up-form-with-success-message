@@ -23,7 +23,7 @@ body {
     padding: 1rem;
     max-width: 55%;
 
-    min-width: 850px;
+    min-width:765px;
 
 
 }
@@ -86,9 +86,10 @@ label span.error{
     border: solid 0.01rem hsl(4, 100%, 67%);
     background-color: hsla(4, 100%, 67%, 0.24);
 }
-.main-img img{
+.hero{
     height: 100%;
     width: 100%;
+    object-fit: contain;
 }
 
 
@@ -101,6 +102,8 @@ label span.error{
     min-width: 400px;
 
     padding: 2.5rem;
+
+        
 }
 
 
@@ -149,4 +152,85 @@ footer {
 }
 footer a{
     color: white;
+}
+
+
+
+@media  (max-width:768px) {
+
+.main-container{
+    min-height: 200vh;
+    margin: 0;
+
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+
+    border-radius: 0;
+
+    padding: 0;
+
+    gap: 2.5rem;
+    line-height: 3rem;
+    }
+h1{
+    font-size: 5.5rem;
+    margin: 2rem 0;
+}
+p{
+    font-size: 2rem;
+}
+
+.main-contenido{
+    gap: 2rem;
+}
+.list img{
+    width: 2.5rem;
+    align-self: center;
+    margin-right: 1rem;
+    }
+label{
+    font-size: 1.5rem;
+}
+
+#email, .form button {
+    padding: 2.25rem;
+    font-size: 2rem;
+
+}
+.form{
+    gap: 2.5rem;
+}
+.attribution{
+    display: none;
+    
+}
+
+.sub-container{
+    margin: 0 auto;
+    border-radius: 0;
+
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.sub-container p{
+    font-size: 1.5rem !important ;
+    line-height: 2rem;
+}
+
+.sub-container button{
+    padding: 1.5rem 7rem;
+    font-size: 1.25rem;
+    margin: 0 0.15rem 2rem;
+}
+.sub-content{
+    margin-top: 10rem;
+}
+.sub-content img{
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+
 }
