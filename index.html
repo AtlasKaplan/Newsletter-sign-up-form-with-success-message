@@ -27,11 +27,11 @@
         <p class="list"><img src="assets/images/icon-list.svg" alt="">Measuring to ensure updates are a success</p>
         <p class="list"><img src="assets/images/icon-list.svg" alt="">And much more!</p>
         
-        <div class="form">
+        <form class="form">
           <label for="email">Email address <span>Valid email required</span></label>
-          <input type="email" id="email" pattern=".+@globex\.com" size="30" placeholder="email@company.com" required>
-          <button>Subscribe to monthly newsletter</button>
-        </div>
+          <input type="email" id="email" placeholder="email@company.com" required>
+          <button type="submit" class="submit">Subscribe to monthly newsletter</button>
+        </form>
         
       </div>
       <div class="main-img">
@@ -45,7 +45,7 @@
       
     </div>
     
-    <div class="sub-container">
+    <div class="sub-container hide">
       <div class="sub-content">
         <img src="assets/images/icon-success.svg" alt="">
         <h2>Thanks for subscribing!</h2>
@@ -54,7 +54,7 @@
           Please open it and click the button inside to confirm your subscription.
         </p>
       </div>
-      <button>Dismiss message</button>
+      <button onclick="self.close()">Dismiss message</button>
     </div>
   
   
@@ -65,5 +65,8 @@
       Coded by <a href="#">Atlas K</a>.
     </div>
   </footer>
+
+<script src="index.js"></script>
+
 </body>
 </html>

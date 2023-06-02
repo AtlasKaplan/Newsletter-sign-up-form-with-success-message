@@ -19,7 +19,7 @@ body {
 
     margin: 15vh auto 0;
     padding: 1rem;
-    max-width: 55%;
+    max-width: 800px;
 
     min-width:765px;
 
@@ -96,7 +96,7 @@ label span.error{
 
     border-radius: 20px;
     margin: 20vh auto 0;
-    max-width: 25%;
+    max-width: 400px;
     min-width: 400px;
 
     padding: 2.5rem;
@@ -137,7 +137,9 @@ button:hover{
 
 
 
-
+.hide{
+    display: none;
+}
 
 
 
@@ -205,6 +207,7 @@ label{
 .sub-container{
     margin: 0 auto;
     border-radius: 0;
+
 
     min-height: 120vh;
     display: flex;
