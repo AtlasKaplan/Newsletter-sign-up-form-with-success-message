@@ -72,15 +72,12 @@ label {
     display: flex;
     justify-content: space-between;
 }
-label span {
-    display: none;
 
-}
-label span.error{
+.error{
     color: hsl(4, 100%, 67%);
 
 }
-.email.error{
+.error-box{
     border: solid 0.01rem hsl(4, 100%, 67%);
     background-color: hsla(4, 100%, 67%, 0.24);
 }
