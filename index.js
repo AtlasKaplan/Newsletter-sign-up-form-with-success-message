@@ -7,3 +7,5 @@ form.addEventListener('submit', (e) => {
     card_1.classList.add('hide');
     card_2.classList.remove('hide');
 });
+
+

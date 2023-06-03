@@ -134,16 +134,9 @@ button:hover{
     background-color: hsl(4, 100%, 67%);
 }
 
-
-
-
 .hide{
     display: none;
 }
-
-
-
-
 
 footer {
     margin-top: 5rem;
@@ -157,6 +150,7 @@ footer a{
 
 
 @media  (max-width:770px) {
+
 
 .main-container{
     margin: 0 auto;
@@ -214,6 +208,9 @@ label{
     flex-direction: column;
     justify-content: space-between;
     
+}
+.hide {
+    display: none;
 }
 .sub-container p{
     font-size: 1.5rem !important ;
