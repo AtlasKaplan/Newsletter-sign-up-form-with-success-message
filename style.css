@@ -53,12 +53,12 @@ h1{
     cursor: pointer;
 }
 
-#email, .form button {
+.email, .form button {
     padding: 1rem;
     border-radius: 7.5px;
     border: solid 0.01rem hsl(231, 7%, 60%);
 }
-#email:focus{
+.email:focus{
     outline: none;
 }
 .list {
@@ -80,7 +80,7 @@ label span.error{
     color: hsl(4, 100%, 67%);
 
 }
-#email.error{
+.email.error{
     border: solid 0.01rem hsl(4, 100%, 67%);
     background-color: hsla(4, 100%, 67%, 0.24);
 }
